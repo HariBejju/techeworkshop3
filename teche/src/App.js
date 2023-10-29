@@ -1,12 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>hellom</h1>
-      </header>
+      <Navbar/>
+      <Hero/>
+      <Footer/>
     </div>
   );
 }
